@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2016", // Versi ECMAScript yang dihasilkan
+    "module": "commonjs", // Format modul (commonjs, amd, es6, dll.)
+    "strict": true, // Aktifkan mode strict type checking
+    "esModuleInterop": true, // Aktifkan interoperability untuk ES modules
+    "skipLibCheck": true, // Lewati pemeriksaan tipe file definisi library eksternal
+    "forceConsistentCasingInFileNames": true, // Penanganan kasus file yang konsisten
+    "outDir": "./dist" // Direktori keluaran untuk hasil kompilasi
+  },
+  "include": [
+    "src/**/*.ts" // Daftar pola file yang akan diikutsertakan dalam kompilasi
+  ],
+  "exclude": [
+    "node_modules" // Daftar pola file yang akan dikecualikan dari kompilasi
+  ]
+}
