@@ -58,7 +58,7 @@ console.log(user);
 
 //runtime async & await
 // Fungsi asynchronous dengan async dan await
-async function ambilData(age: number): Promise<string> {
+function ambilData(age: number): Promise<string> {
   return new Promise<string>((resolve, reject) => {
     setTimeout(() => {
       resolve(`nama saya ihlas sul akbar umur saya ${age} tahun`);

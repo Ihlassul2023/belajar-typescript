@@ -48,12 +48,10 @@ console.log(user);
 //runtime async & await
 // Fungsi asynchronous dengan async dan await
 function ambilData(age) {
-    return __awaiter(this, void 0, void 0, function* () {
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
-                resolve(`nama saya ihlas sul akbar umur saya ${age} tahun`);
-            }, 1000);
-        });
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(`nama saya ihlas sul akbar umur saya ${age} tahun`);
+        }, 1000);
     });
 }
 // Menggunakan fungsi asynchronous dengan await
